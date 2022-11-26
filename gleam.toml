@@ -1,0 +1,12 @@
+name = "ag_html"
+version = "0.1.0"
+licences = ["MIT"]
+description = "A Gleam library for building HTML strings usings functions."
+repository = { type = "github", user = "avdgaag", repo = "gleam_ag_html" }
+links = [{ title = "Website", href = "https://github.com/avdgaag/gleam_ag_html" }]
+
+[dependencies]
+gleam_stdlib = "~> 0.25"
+
+[dev-dependencies]
+gleeunit = "~> 0.7"
